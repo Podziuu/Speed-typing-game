@@ -60,7 +60,6 @@ async function renderQuote() {
 
 let startTime
 function startTimer() {
-    console.log(isTime);
     timer.innerText = 0
     startTime = new Date();
     setInterval(() => {
